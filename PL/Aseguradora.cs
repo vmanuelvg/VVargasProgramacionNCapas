@@ -70,6 +70,7 @@ namespace PL
             }
 
         }
+
         public static void Mostrar()
         {
             Console.WriteLine("\nQue metodo deseas utilizar" +
@@ -88,7 +89,7 @@ namespace PL
                         Console.WriteLine("Nombre: " + aseguradora.Nombre);
                         Console.WriteLine("Fecha de creacion: " + aseguradora.FechaCreacion);
                         Console.WriteLine("Fecha de modificacion: " + aseguradora.FechaModificacion);
-                        Console.WriteLine("Rol: " + aseguradora.Usuario.IdUsuario);
+                        Console.WriteLine("Id Usuario: " + aseguradora.Usuario.IdUsuario);
                         Console.WriteLine("----------------------------------");
                         Console.WriteLine();
                     }

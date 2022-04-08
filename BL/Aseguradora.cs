@@ -212,6 +212,7 @@ namespace BL
             }
             return result;
         }
+
         public static ML.Result GetByIdSP(int IdAseguradora)
         {
             ML.Result result = new ML.Result();
